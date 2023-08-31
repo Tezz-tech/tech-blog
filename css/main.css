@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #82A6B1;
+}
+
+.nav {
+    background-color:#82A6B1;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:#726953;
+    position: relative;
+    width: 85%;
+    margin: auto;
+}
+
+.topnav #myLinks {
+    display: none;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.topnav a {
+    color: #5B3000;
+    padding: 9px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icon img{
+    height: 40px;
+    margin-top: -3px;
+}
+
+.content {
+    width: 52%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mainContent {
+    margin: 40px 0px 55px 0px;
+}
+
+.storyTag {
+    font-size: 35px;
+    color: #5B3000;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #5B3000;
+    text-align: center;
+}
+
+.mainContent p,
+h6 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #5B3000;
+    margin: 7px 0px 7px 0px;
+}
+
+.mainContent h4 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.mainContent h5 {
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+nav.left {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    background-color: #557A95;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+nav.left h1 {
+    margin-top: 30px;
+    font-size: 33px;
+    margin-left: 10px;
+}
+
+nav.left a {
+    text-decoration: none;
+    color: #70c3fd;
+    margin-top: 22px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+nav.left h3 {
+    color: #70c3fd;
+    margin-top: 22px;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+
+.add-content {
+    margin-left: 15%;
+}
+
+.body {
+    background-color: #5D5C61;
+}
+
+.add-main {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.add-main h3 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+img {
+    height: 280px;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 425px){
+    img{
+        height: 120px;
+    }
+
+    .content {
+        width: 96%;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    nav h3{
+        font-size: 23px !important;
+        margin-top: 10px;
+    }
+
+    .icon img{
+        height: 20px;
+        margin-top: 13px;
+    }
+    .topnav a {
+        padding: 5px 16px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .topnav{
+        width: 98% !important;
+    }
+
+    .content {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
